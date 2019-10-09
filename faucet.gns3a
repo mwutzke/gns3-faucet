@@ -1,0 +1,18 @@
+{
+    "name": "Faucet SDN Controller",
+    "category": "guest",
+    "description": "Faucet is a compact open source OpenFlow controller, which enables network operators to run their networks the same way they do server clusters.",
+    "vendor_name": "Faucet Foundation",
+    "vendor_url": "https://faucet.nz/",
+    "documentation_url": "https://docs.faucet.nz/en/latest/index.html",
+    "product_name": "Faucet",
+    "registry_version": 3,
+    "status": "stable",
+    "maintainer": "Mark Wutzke",
+    "maintainer_email": "mwutzke@users.noreply.github.com",
+    "usage": "eth0 is the management interface to connect to your OpenFlow switches.",
+    "docker": {
+        "adapters": 1,
+        "image": "mwutzke/gns3-faucet:latest"
+    }
+}
