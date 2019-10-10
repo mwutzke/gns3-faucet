@@ -11,6 +11,7 @@
     "maintainer": "Mark Wutzke",
     "maintainer_email": "mwutzke@users.noreply.github.com",
     "usage": "eth0 is the management interface to connect to your OpenFlow switches.",
+    "symbol": "mgmt_station_faucet.svg",
     "docker": {
         "adapters": 1,
         "image": "mwutzke/gns3-faucet:latest"
