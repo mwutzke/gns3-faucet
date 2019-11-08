@@ -1,4 +1,4 @@
-FROM faucet/faucet:latest
+FROM faucet/faucet:1.9.23
 
 ADD boot.sh /bin/boot.sh
 
