@@ -7,7 +7,7 @@
 
 LOG=/var/log/faucet/app.log
 
-# Launch a deteched instance of Faucet
+# Launch a detached instance of Faucet
 nohup /usr/bin/faucet >$LOG 2>&1 </dev/null &
 
 exec /bin/bash -l
