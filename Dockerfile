@@ -1,4 +1,4 @@
-FROM faucet/faucet:1.9.23
+FROM faucet/faucet:latest
 
 RUN apk add tmux
 

@@ -8,4 +8,4 @@ Building the container
 
 .. code:: bash
 
-    docker build -t mwutzke/gns3-faucet .
+    docker build -t $USER/gns3-faucet .
